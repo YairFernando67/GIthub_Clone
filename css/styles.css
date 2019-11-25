@@ -126,6 +126,53 @@ body {
   list-style: none;
 }
 
+.main-container .row {
+  margin: 10px 279px 0 279px;
+  padding: 0 16px;
+}
+
+.main-container .row .column-3 .flex .names {
+  padding: 16px 0;
+}
+
+.main-container .row .column-3 button {
+  padding: 6px 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  background-color: #e6ebf1;
+  background-image: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%);
+  background-position: -.5em;
+  border-color: rgba(27,31,35,.35);
+}
+
+.status {
+  color: #586069;
+  font-size: 12px;  
+}
+
+.name {
+  font-size: 26px;
+  line-height: 30px;
+  color: #24292e;
+  font-weight: 600;
+}
+
+.username {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #666;
+}
+
+.edit-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #24292e;
+  border-radius: 0.25em;
+}
+
 @media (max-width: 1010px) {
   .header-container .navbar-container .menu-container,
   .header-container .navbar-container .settings-container {

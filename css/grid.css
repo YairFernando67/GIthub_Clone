@@ -9,6 +9,11 @@
 /* PADDING */
 
 /* VERTICAL PADDING */
+
+.text_deco_none {
+  text-decoration: none;
+}
+
 .pad-v-0 {
   padding-top: 0;
   padding-bottom: 0;
