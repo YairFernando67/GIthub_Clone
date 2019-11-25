@@ -1,0 +1,149 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-container {
+  height: 65px;
+  background: #24292e;
+}
+
+.header-container .navbar-container {
+  position: relative;
+}
+
+.header-container .navbar-container .logo-container {
+  position: absolute;
+  top: 20%;
+  left: 0.5%;
+  background-image: url(../img/github-logo.png);
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+.header-container .navbar-container .logo-container:hover,
+.header-container .navbar-container .menu-container:hover,
+.header-container .navbar-container .settings-container:hover {
+  cursor: pointer;
+}
+
+.header-container .navbar-container .menu-container,
+.header-container .navbar-container .settings-container {
+  display: none;
+}
+
+.header-container .navbar-container .menu-container {
+  background-image: url(../img/menu-bar.png);
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+.header-container .navbar-container .settings-container {
+  background-image: url(../img/notification.png);
+  position: absolute;
+  top: 28%;
+  left: 90%;
+  width: 30px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+.header-container .navbar-right {
+  list-style: none;
+}
+
+.header-container .navbar-right li:first-child {
+  position: relative;
+}
+
+.header-container .navbar-right li {
+  padding: 5px 10px;
+}
+
+.header-container .navbar-right li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-container .navbar-right li a:hover {
+  color: hsla(0, 0%, 100%, 0.7);
+  text-decoration: none;
+}
+
+.header-container .navbar-right input {
+  padding: 5px 8px;
+  width: 300px;
+  height: 30px;
+  background: #404448;
+  border-radius: 3px;
+  border: none;
+  outline: 0 none;
+  font-size: 0.9rem;
+  color: #808385;
+}
+
+.header-container .navbar-right .icon-search {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.header-container .navbar-left {
+  list-style: none;
+}
+
+.header-container .navbar-left li {
+  width: 40px;
+  padding: 0 10px;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+
+.header-container .navbar-left li:first-child {
+  background-image: url(../img/notification.png);
+}
+
+.header-container .navbar-left li:last-child {
+  background-image: url(../img/settings.png);
+}
+
+.header-container .navbar-left li.plus {
+  background-image: url(../img/plus.png);
+  margin-top: 3px;
+}
+
+.header-container .navbar-left li:hover {
+  color: hsla(0, 0%, 100%, 0.7);
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media (max-width: 1010px) {
+  .header-container .navbar-container .menu-container,
+  .header-container .navbar-container .settings-container {
+    display: block;
+  }
+
+  .header-container .navbar-left,
+  .header-container .navbar-right {
+    display: none;
+  }
+
+  .header-container .navbar-container .logo-container {
+    left: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-container .navbar-container .settings-container {
+    left: 93.5%;
+  }
+}
