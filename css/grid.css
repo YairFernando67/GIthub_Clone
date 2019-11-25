@@ -398,7 +398,7 @@
 
 /* END */
 
-/* WHIDTH */
+/* WIDTH */
 .full-w {
   width: 100%;
 }
@@ -446,19 +446,211 @@
 
 /* BORDER */
 
+.border {
+  border: 1px solid #DEE2E6;
+}
 
+.border-v {
+  border-top: solid 1px #DEE2E6;
+  border-bottom: solid 1px #DEE2E6;
+}
+
+.border-h {
+  border-left: solid 1px #DEE2E6;
+  border-right: solid 1px #DEE2E6;
+}
+
+.border-b {
+  border-bottom: solid 1px #DEE2E6;
+}
+
+.border-t {
+  border-top: solid 1px #DEE2E6;
+}
+
+.border-l {
+  border-left: solid 1px #DEE2E6;
+}
+
+.border-r {
+  border-right: solid 1px #DEE2E6;
+}
 /* END */
 
 
 /* FONT SIZE */
+.f1 {
+  font-size: 0.7rem;
+}
+
+.f2 {
+  font-size: 1rem;
+}
+
+.f3 {
+  font-size: 1.3rem;
+}
+
+.f4 {
+  font-size: 1.6rem;
+}
+
+.f5 {
+  font-size: 1.9rem;
+}
 
 
 /* END */
 
 /* FLEX BOX */
 
+.flex {
+  display: flex;
+}
 
+.flex-g0 {
+  flex-grow: 0;
+}
 
+.flex-g1 {
+  flex-grow: 1;
+}
+
+.flex-g2 {
+  flex-grow: 2;
+}
+
+.flex-s1 {
+  flex-shrink: 0;
+}
+
+.flex-s1 {
+  flex-shrink: 1;
+}
+
+.flex-s1 {
+  flex-shrink: 2;
+}
+
+.flex-w {
+  flex-wrap: wrap;
+}
+
+.flex-nw {
+  flex-wrap: nowrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-r {
+  flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-r{
+  flex-direction: column-reverse;
+}
+
+.align-center {
+  align-content: center;
+}
+
+.align-start {
+  align-content: flex-start;
+}
+
+.align-end {
+  align-content: flex-end;
+}
+
+.align-space-around {
+  align-content: space-around;
+}
+
+.align-space-between {
+  align-content: space-between;
+}
+
+.align-stretch {
+  align-content: stretch;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
+.align-center-i {
+  align-items: center;
+}
+
+.align-start-i {
+  align-items: flex-start;
+}
+
+.align-end-i {
+  align-items: flex-end;
+}
+
+.align-space-around-i {
+  align-items: space-around;
+}
+
+.align-space-between-i {
+  align-items: space-between;
+}
+
+.align-stretch-i {
+  align-items: stretch;
+}
+
+.justify-center-i {
+  justify-items: center;
+}
+
+.justify-start-i {
+  justify-items: flex-start;
+}
+
+.justify-end-i {
+  justify-items: flex-end;
+}
+
+.justify-space-around-i {
+  justify-items: space-around;
+}
+
+.justify-space-between-i {
+  justify-items: space-between;
+}
+
+.justify-stretch-i {
+  justify-items: stretch;
+}
 /* END */
 
 /* GRID */
