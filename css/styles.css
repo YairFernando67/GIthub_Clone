@@ -126,10 +126,6 @@ body {
   list-style: none;
 }
 
-/* .main-container .row {
-  padding: 0 16px;
-} */
-
 .main-container .row .column-3 .flex .names {
   padding: 16px 0;
 }
@@ -170,6 +166,10 @@ body {
   font-weight: 600;
   color: #24292e;
   border-radius: 0.25em;
+}
+
+.main-container .repo-container {
+  background: purple;
 }
 
 @media (max-width: 1010px) {
