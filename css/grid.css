@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* PADDING */
+
+/* VERTICAL PADDING */
+.pad-v-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.pad-v-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pad-v-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pad-v-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pad-v-4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pad-v-5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* HORIZONTAL PADDING */
+.pad-h-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pad-h-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pad-h-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pad-h-3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pad-h-4 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.pad-h-5 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* PADDING RIGHT */
+
+.pad-right-0 {
+  padding-right: 0;
+}
+
+.pad-right-1 {
+  padding-right: 10px;
+}
+
+.pad-right-2 {
+  padding-right: 20px;
+}
+
+.pad-right-3 {
+  padding-right: 30px;
+}
+
+.pad-right-4 {
+  padding-right: 40px;
+}
+
+.pad-right-5 {
+  padding-right: 50px;
+}
+
+/* PADDING LEFT */
+
+.pad-left-0 {
+  padding-left: 0;
+}
+
+.pad-left-1 {
+  padding-left: 10px;
+}
+
+.pad-left-2 {
+  padding-left: 20px;
+}
+
+.pad-left-3 {
+  padding-left: 30px;
+}
+
+.pad-left-4 {
+  padding-left: 40px;
+}
+
+.pad-left-5 {
+  padding-left: 50px;
+}
+
+/* PADDING BOTTOM */
+
+.pad-bottom-0 {
+  padding-bottom: 0;
+}
+
+.pad-bottom-1 {
+  padding-bottom: 10px;
+}
+
+.pad-bottom-2 {
+  padding-bottom: 20px;
+}
+
+.pad-bottom-3 {
+  padding-bottom: 30px;
+}
+
+.pad-bottom-4 {
+  padding-bottom: 40px;
+}
+
+.pad-bottom-5 {
+  padding-bottom: 50px;
+}
+
+/* PADDING TOP */
+
+.pad-top-0 {
+  padding-top: 0;
+}
+
+.pad-top-1 {
+  padding-top: 10px;
+}
+
+.pad-top-2 {
+  padding-top: 20px;
+}
+
+.pad-top-3 {
+  padding-top: 30px;
+}
+
+.pad-top-4 {
+  padding-top: 40px;
+}
+
+.pad-top-5 {
+  padding-top: 50px;
+}
+
+/* FULL PADD */
+
+.pad-full-0 {
+  padding: 0;
+}
+
+.pad-full-1 {
+  padding: 10px;
+}
+
+.pad-full-2 {
+  padding: 20px;
+}
+
+.pad-full-3 {
+  padding: 30px;
+}
+
+.pad-full-4 {
+  padding: 40px;
+}
+
+.pad-full-5 {
+  padding: 50px;
+}
+
+/* END */
+
+
+
+/* MARGIN */
+
+
+
+/* END */
+
+
+
+/* BORDER */
+
+
+/* END */
+
+
+/* FONT SIZE */
+
+
+/* END */
+
+/* FLEX BOX */
+
+
+
+/* END */
+
+/* GRID */
+
+/* END */
+
+
+
+
+/* MEDIAS */
+
+
+
+
+/* END */
