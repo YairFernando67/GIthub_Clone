@@ -398,8 +398,33 @@
 
 /* END */
 
+/* WHIDTH */
+.full-w {
+  width: 100%;
+}
+
+.med-w {
+  width: 75%;
+}
+
+.small-w {
+  width: 50%;
+}
+
+.tiny-w {
+  width: 25%;
+}
+
+.normal-w {
+  width: auto;
+}
+
+/* END */
+
+/* HEIGHT */
 
 
+/* END */
 /* BORDER */
 
 
