@@ -447,36 +447,36 @@
 /* BORDER */
 
 .border {
-  border: 1px solid #DEE2E6;
+  border: 1px solid #dee2e6;
 }
 
 .border-v {
-  border-top: solid 1px #DEE2E6;
-  border-bottom: solid 1px #DEE2E6;
+  border-top: solid 1px #dee2e6;
+  border-bottom: solid 1px #dee2e6;
 }
 
 .border-h {
-  border-left: solid 1px #DEE2E6;
-  border-right: solid 1px #DEE2E6;
+  border-left: solid 1px #dee2e6;
+  border-right: solid 1px #dee2e6;
 }
 
 .border-b {
-  border-bottom: solid 1px #DEE2E6;
+  border-bottom: solid 1px #dee2e6;
 }
 
 .border-t {
-  border-top: solid 1px #DEE2E6;
+  border-top: solid 1px #dee2e6;
 }
 
 .border-l {
-  border-left: solid 1px #DEE2E6;
+  border-left: solid 1px #dee2e6;
 }
 
 .border-r {
-  border-right: solid 1px #DEE2E6;
+  border-right: solid 1px #dee2e6;
 }
-/* END */
 
+/* END */
 
 /* FONT SIZE */
 .f1 {
@@ -498,7 +498,6 @@
 .f5 {
   font-size: 1.9rem;
 }
-
 
 /* END */
 
@@ -552,7 +551,7 @@
   flex-direction: column;
 }
 
-.flex-col-r{
+.flex-col-r {
   flex-direction: column-reverse;
 }
 
@@ -651,9 +650,81 @@
 .justify-stretch-i {
   justify-items: stretch;
 }
+
 /* END */
 
 /* GRID */
+.row {
+  display: flex;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.column-12 {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.column-11 {
+  max-width: 91.6666666667%;
+  flex: 0 0 91.6666666667%;
+}
+
+.column-10 {
+  max-width: 83.3333333333%;
+  flex: 0 0 83.3333333333%;
+}
+
+.column-9 {
+  max-width: 75%;
+  flex: 0 0 75%;
+}
+
+.column-8 {
+  max-width: 66.66666%;
+  flex: 0 0 66.66666%;
+}
+
+.column-7 {
+  max-width: 58.3333333333%;
+  flex: 0 0 58.3333333333%;
+}
+
+.column-6 {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.column-5 {
+  max-width: 41.6666666667%;
+  flex: 0 0 41.6666666667%;
+}
+
+.column-4 {
+  max-width: 33.3333333333%;
+  flex: 0 0 33.3333333333%;
+}
+
+.column-3 {
+  max-width: 25%;
+  flex: 0 0 25%;
+}
+
+.column-2 {
+  max-width: 16.6666666667%;
+  flex: 0 0 16.6666666667%;
+}
+
+.column-1 {
+  max-width: 8.3333333333%;
+  flex: 0 0 8.3333333333%;
+}
+
+.column-auto {
+  width: auto;
+  flex: 0 0 auto;
+  max-width: 100%;
+}
 
 /* END */
 
