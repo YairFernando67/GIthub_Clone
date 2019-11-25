@@ -754,7 +754,8 @@
 
 .main-container {
   width: 100%;
-  padding: 15px;
+  max-width: 1240px;
+  padding: 10px;
   margin-right: auto;
   margin-left: auto;
 }
