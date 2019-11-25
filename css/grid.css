@@ -422,7 +422,25 @@
 /* END */
 
 /* HEIGHT */
+.full-h {
+  height: 100%;
+}
 
+.med-h {
+  height: 75%;
+}
+
+.small-h {
+  height: 50%;
+}
+
+.tiny-h {
+  height: 25%;
+}
+
+.normal-h {
+  height: auto;
+}
 
 /* END */
 /* BORDER */
