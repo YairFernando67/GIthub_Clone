@@ -202,11 +202,199 @@
 
 /* END */
 
-
-
 /* MARGIN */
 
+/* VERTICAL MARGIN */
+.mar-v-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+.mar-v-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mar-v-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mar-v-3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mar-v-4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mar-v-5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* HORIZONTAL MARGIN */
+.mar-h-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.mar-h-1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mar-h-2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mar-h-3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.mar-h-4 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mar-h-5 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* MARGIN RIGHT */
+
+.mar-right-0 {
+  margin-right: 0;
+}
+
+.mar-right-1 {
+  margin-right: 10px;
+}
+
+.mar-right-2 {
+  margin-right: 20px;
+}
+
+.mar-right-3 {
+  margin-right: 30px;
+}
+
+.mar-right-4 {
+  margin-right: 40px;
+}
+
+.mar-right-5 {
+  margin-right: 50px;
+}
+
+/* MARGIN LEFT */
+
+.mar-left-0 {
+  margin-left: 0;
+}
+
+.mar-left-1 {
+  margin-left: 10px;
+}
+
+.mar-left-2 {
+  margin-left: 20px;
+}
+
+.mar-left-3 {
+  margin-left: 30px;
+}
+
+.mar-left-4 {
+  margin-left: 40px;
+}
+
+.mar-left-5 {
+  margin-left: 50px;
+}
+
+/* MARGIN BOTTOM */
+
+.mar-bottom-0 {
+  margin-bottom: 0;
+}
+
+.mar-bottom-1 {
+  margin-bottom: 10px;
+}
+
+.mar-bottom-2 {
+  margin-bottom: 20px;
+}
+
+.mar-bottom-3 {
+  margin-bottom: 30px;
+}
+
+.mar-bottom-4 {
+  margin-bottom: 40px;
+}
+
+.mar-bottom-5 {
+  margin-bottom: 50px;
+}
+
+/* MARGIN TOP */
+
+.mar-top-0 {
+  margin-top: 0;
+}
+
+.mar-top-1 {
+  margin-top: 10px;
+}
+
+.mar-top-2 {
+  margin-top: 20px;
+}
+
+.mar-top-3 {
+  margin-top: 30px;
+}
+
+.mar-top-4 {
+  margin-top: 40px;
+}
+
+.mar-top-5 {
+  margin-top: 50px;
+}
+
+/* FULL MARGIN */
+
+.mar-full-0 {
+  margin: 0;
+}
+
+.mar-full-1 {
+  margin: 10px;
+}
+
+.mar-full-2 {
+  margin: 20px;
+}
+
+.mar-full-3 {
+  margin: 30px;
+}
+
+.mar-full-4 {
+  margin: 40px;
+}
+
+.mar-full-5 {
+  margin: 50px;
+}
 
 /* END */
 
