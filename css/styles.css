@@ -232,12 +232,14 @@ body {
   border-radius: 20px;
 }
 
-.repositories-container .header small {
+.repositories-container .header small,
+.contributions-container .header small {
   color: #586069;
   transition: all 0.2s;
 }
 
-.repositories-container .header small:hover {
+.repositories-container .header small:hover,
+.contributions-container .header small:hover {
   color: #0366d6 !important;
   text-decoration: none;
   cursor: pointer;
@@ -275,6 +277,26 @@ body {
   margin-right: 5px;
 }
 
+.repositories-container .header p,
+.contributions-container .header p {
+  color: #24292e;
+}
+
+.contributions-container .img-contributions {
+  background-image: url(../img/contributions.png);
+  height: 129px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+.contributions-container .img-contributions2 {
+  background-image: url(../img/contributions2.png);
+  height: 159px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .language-repo .css {
   background: #563d7c;
 }
@@ -285,6 +307,21 @@ body {
 
 .language-repo .ruby {
   background: #701516;
+}
+
+.contributions-container .footer-cont {
+  font-size: 0.7rem;
+}
+
+.contributions-container .footer-cont .learn {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.contributions-container .footer-cont .learn:hover {
+  color: #0366d6;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (max-width: 1320px) {
