@@ -133,7 +133,6 @@ body {
 .main-container .row .column-3 button {
   padding: 6px 12px;
   margin-top: 8px;
-  margin-bottom: 16px;
   cursor: pointer;
   background-color: #e6ebf1;
   background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
@@ -179,12 +178,6 @@ body {
   padding-bottom: 5px;
 }
 
-.main-container .repo-container {
-  /* background: purple; */
-  /* height: 400px;
-  width: 500px; */
-}
-
 .items {
   font-family: sans-serif;
   font-size: 14px;
@@ -224,7 +217,7 @@ body {
   font-weight: 600;
   line-height: 1;
   color: #586069;
-  background-color: rgba(27,31,35,.08);
+  background-color: rgba(27, 31, 35, 0.08);
   border-radius: 20px;
 }
 
@@ -237,6 +230,61 @@ body {
   color: transparent;
   background-color: transparent;
   border-radius: 20px;
+}
+
+.repositories-container .header small {
+  color: #586069;
+  transition: all 0.2s;
+}
+
+.repositories-container .header small:hover {
+  color: #0366d6 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.repositories-container .content article .repo {
+  padding: 20px 10px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  border: 1px solid #d1d5da;
+}
+
+.repositories-container .content article .title-repo {
+  margin-bottom: 20px;
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.repositories-container .content article .title-repo:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.repositories-container .content article .language-repo {
+  display: flex;
+  align-items: center;
+}
+
+.repositories-container .content article .language-repo .circle {
+  width: 12px;
+  height: 12px;
+  display: block;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.language-repo .css {
+  background: #563d7c;
+}
+
+.language-repo .c {
+  background: #178600;
+}
+
+.language-repo .ruby {
+  background: #701516;
 }
 
 @media (max-width: 1320px) {
@@ -272,5 +320,11 @@ body {
 @media (min-width: 768px) {
   .header-container .navbar-container .settings-container {
     left: 93.5%;
+  }
+}
+
+@media (max-width: 820px) {
+  .menu-container nav {
+    overflow-x: auto;
   }
 }

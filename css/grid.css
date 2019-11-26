@@ -356,7 +356,7 @@
 }
 
 .mar-top-1 {
-  margin-top: 10px;
+  margin-top: 10px !important;
 }
 
 .mar-top-2 {
@@ -378,7 +378,7 @@
 /* FULL MARGIN */
 
 .mar-full-0 {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .mar-full-1 {
