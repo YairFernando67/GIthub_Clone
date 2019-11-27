@@ -343,7 +343,7 @@ body {
 .contribution-activity .history .repository-creation,
 .contribution-activity .history .pull-request,
 .contribution-activity .history .pull-request-open {
-  padding: 24px 0px 24px 24px;
+  padding: 24px 0 24px 24px;
   margin-left: 16px;
   border-left: 2px solid #e1e4e8;
   border-bottom: 1px solid #e1e4e8;
@@ -354,7 +354,7 @@ body {
   width: 32px;
   height: 32px;
   margin-top: -5px;
-  margin-left: -39px;  
+  margin-left: -39px;
 }
 
 .contribution-activity .history .top-date {
@@ -440,7 +440,7 @@ body {
 
 .contribution-activity .history .list-commits .commit-index .big-a:hover {
   text-decoration: underline;
-  color: #0366d6;  
+  color: #0366d6;
 }
 
 .contribution-activity .history .list-commits .commit-index .small-a {
@@ -483,7 +483,7 @@ body {
 
 .contribution-activity .history .pull-request-open .grey-a {
   text-decoration: none;
-  color: #586069;  
+  color: #586069;
   font-family: sans-serif;
   font-size: 14px;
   line-height: 17.5px;
@@ -533,11 +533,11 @@ body {
 }
 
 .dot {
-  margin-left: 4px;  
+  margin-left: 4px;
   color: #6a737d;
   font-weight: 600;
   font-size: 12px;
-  line-height: 18px;  
+  line-height: 18px;
 }
 
 @media (max-width: 1320px) {
@@ -567,7 +567,7 @@ body {
 
   .main-item {
     margin-right: 4px;
-  }  
+  }
 }
 
 @media (min-width: 768px) {
