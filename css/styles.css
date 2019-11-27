@@ -324,6 +324,222 @@ body {
   cursor: pointer;
 }
 
+.contribution-activity .contribution-header {
+  justify-content: space-between;
+}
+
+.contribution-activity .contribution-header a {
+  width: 122px;
+  text-decoration: none;
+  color: white;
+  background-color: #0366d6;
+  padding: 8px 16px;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.contribution-activity .history .commits,
+.contribution-activity .history .repository-creation,
+.contribution-activity .history .pull-request,
+.contribution-activity .history .pull-request-open {
+  padding: 24px 0px 24px 24px;
+  margin-left: 16px;
+  border-left: 2px solid #e1e4e8;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.contribution-activity .history figure {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin-top: -5px;
+  margin-left: -39px;  
+}
+
+.contribution-activity .history .top-date {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: sans-serif;
+  line-height: 18px;
+}
+
+.date {
+  color: #586069;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 4px;
+}
+
+.text {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #586069;
+}
+
+.loadbar1 {
+  background: #239a3b;
+  height: 8px;
+  width: 55%;
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+.loadbar2 {
+  background: #c6e48b;
+  height: 8px;
+  width: 33%;
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+.loadbar3 {
+  background: #c6e48b;
+  height: 8px;
+  width: 25%;
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+.loadbar4 {
+  background: #c6e48b;
+  height: 8px;
+  width: 10%;
+  border-radius: 2px;
+  margin-top: 8px;
+}
+
+.contribution-activity .history .details .button {
+  width: 16px;
+  height: 16px;
+  background: url(../img/corner-button.png);
+}
+
+.contribution-activity .history .details .details-a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #586069;
+}
+
+.contribution-activity .history .details .details-a:hover {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.contribution-activity .history .list-commits .commit-index .big-a {
+  text-decoration: none;
+  color: #0366d6;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 17.5px;
+}
+
+.contribution-activity .history .list-commits .commit-index .big-a:hover {
+  text-decoration: underline;
+  color: #0366d6;  
+}
+
+.contribution-activity .history .list-commits .commit-index .small-a {
+  text-decoration: none;
+  color: #586069;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 4px;
+}
+
+.contribution-activity .history .list-commits .commit-index .small-a:hover {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.contribution-activity .history .pull-request .pull-deatils {
+  padding: 16px;
+  border: 1px solid rgb(209, 213, 218);
+  border-radius: 2px;
+}
+
+.contribution-activity .history .pull-request .pull-deatils .floater {
+  float: left;
+  margin-top: 4px;
+}
+
+.contribution-activity .history .pull-request .pull-deatils .merge-details .merge-text {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.contribution-activity .history .pull-request .pull-deatils .merge-details .merge-text:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.contribution-activity .history .pull-request-open .grey-a {
+  text-decoration: none;
+  color: #586069;  
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 17.5px;
+}
+
+.contribution-activity .history .pull-request-open .grey-a:hover {
+  text-decoration: none;
+  color: #0366d6;
+}
+
+.box-block {
+  margin-top: 5px;
+}
+
+.ok {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: 1px;
+  background-color: green;
+}
+
+.neutral {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: 1px;
+  background-color: grey;
+}
+
+.green-text {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #178600;
+  margin-right: 4px;
+}
+
+.red-text {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: red;
+  margin-right: 4px;
+}
+
+.dot {
+  margin-left: 4px;  
+  color: #6a737d;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;  
+}
+
 @media (max-width: 1320px) {
   .main-container {
     max-width: 100%;
@@ -351,7 +567,7 @@ body {
 
   .main-item {
     margin-right: 4px;
-  }
+  }  
 }
 
 @media (min-width: 768px) {
