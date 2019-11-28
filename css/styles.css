@@ -83,6 +83,31 @@ footer .navigation-footer ul li {
   position: relative;
 }
 
+footer .navigation-footer ul li a,
+footer .navigation-footer ul span {
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.github-profile p {
+  color: #586069;
+}
+
+.github-profile a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+footer .navigation-footer ul li a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+footer .navigation-footer ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .contribution-activity .contribution-header a {
   width: 122px;
   text-decoration: none;
@@ -195,15 +220,6 @@ footer .navigation-footer ul li {
   line-height: 23px;
 }
 
-.github-profile p {
-  color: #586069;
-}
-
-.github-profile a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
 .github-profile a:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -212,12 +228,6 @@ footer .navigation-footer ul li {
 .repositories-container .header p,
 .contributions-container .header p {
   color: #24292e;
-}
-
-footer .navigation-footer ul li a,
-footer .navigation-footer ul span {
-  text-decoration: none;
-  font-size: 0.7rem;
 }
 
 footer .navigation-footer ul span {
@@ -589,16 +599,6 @@ footer .navigation-footer ul span {
   background-color: #f6f8fa;
   text-decoration: none;
   cursor: pointer;
-}
-
-footer .navigation-footer ul li a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-footer .navigation-footer ul li a:hover {
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 footer .navigation-footer ul li a img {
