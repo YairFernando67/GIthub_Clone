@@ -144,7 +144,7 @@ footer .navigation-footer ul li {
 .header-container .navbar-left li:hover {
   color: hsla(0, 0%, 100%, 0.7);
   text-decoration: none;
-  cursor: pointer;  
+  cursor: pointer;
   list-style: none;
 }
 
