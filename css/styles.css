@@ -83,6 +83,11 @@ footer .navigation-footer ul li {
   position: relative;
 }
 
+.github-profile a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
 footer .navigation-footer ul li a,
 footer .navigation-footer ul span {
   text-decoration: none;
@@ -93,19 +98,9 @@ footer .navigation-footer ul span {
   color: #586069;
 }
 
-.github-profile a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
 footer .navigation-footer ul li a {
   color: #0366d6;
   text-decoration: none;
-}
-
-footer .navigation-footer ul li a:hover {
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 .contribution-activity .contribution-header a {
@@ -119,11 +114,21 @@ footer .navigation-footer ul li a:hover {
   margin-bottom: 2px;
 }
 
+.github-profile a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .header-container .navbar-right li a {
   text-decoration: none;
   font-size: 0.9rem;
   color: #fff;
   font-weight: 500;
+}
+
+footer .navigation-footer ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .header-container .navbar-right li a:hover {
@@ -218,11 +223,6 @@ footer .navigation-footer ul li a:hover {
   font-weight: 200;
   font-size: 0.9rem;
   line-height: 23px;
-}
-
-.github-profile a:hover {
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 .repositories-container .header p,
